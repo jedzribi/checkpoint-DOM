@@ -1,0 +1,180 @@
+body{
+  display:block;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}.ShoppingPage{
+  display: flex;
+  text-align: center;
+}
+.panier{
+  display: block;
+  position: fixed;
+  margin-left: 80%;
+  margin-top: 150px;
+  text-align: center;
+  height: auto;
+  width: 15%;
+  box-shadow: 15px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home{
+  display: block;
+  text-align: center;
+  width: 95%;
+  height:auto ;
+  margin: 30px 30px 10px auto ;
+}
+h6{
+margin-top: 25px;
+margin-left: 30px;
+}
+.pr{
+  color: green;
+  display: flex;
+  margin-left: 20px;
+}
+.pr p.p1{
+  color: black;
+  margin-right: -10px;
+}
+.pr p.p2{
+  color: black;
+  margin-left: -10px;
+}
+.ligne1{
+  display: flex;
+}
+.article{
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius:10px;
+  border-radius:10px;
+  text-align: center;
+  margin: 35px 35px 35px 35px;
+}
+img{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+.article h6{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color:rgb(116,116,116);
+  padding-left: 10px;
+}
+.article:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img:hover{
+  zoom: 110%;
+  cursor: zoom-in;
+}
+button:hover{
+  cursor:pointer;
+}
+button.delete:hover{
+  cursor:not-allowed;
+}
+
+.disponibiler{
+  display: block;
+  text-align: center;
+  margin-top: -90px;
+}
+    .ii1{
+  display: flex;
+}
+.ii1 button{
+  text-align: center;
+  margin: 20px 15px 0px 14px ;
+    width: 30px;
+  height: 30px;
+  }
+.i{
+  margin-top: -95px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+.mm{
+  display: flex;
+  text-align: center;
+  margin-bottom: -50px;
+}
+.colordispo{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: green;
+  text-align: center;
+  margin-top: -86px;
+  margin-right: 5px;
+  margin-left: 50px;
+
+}
+.colorNonDispo{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: rgb(235, 6, 6);
+  text-align: center;
+  margin-top: -86px;
+  margin-right: 5px;
+  margin-left: 50px;
+
+}
+.commander{
+  display: flex;
+  text-align: center;
+  margin-top: -35px;
+}
+.commander button{
+margin-top: 10px;
+  width: 30px;
+height: 30px;
+}
+.commander p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p1{
+  text-align: left;
+  display: flex;
+  margin-left: 3px;
+  justify-content:space-between;
+}
+.m2{
+  display: flex;
+  text-align:right;
+  /* margin-left: 70px; */
+  margin-right: 10px;
+}
+.money-check{
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+input{
+  margin-left: -25px;
+  padding: 0 0 0 2rem;
+}
+input:hover{
+  cursor:cell;
+}
+.panier:hover{
+  cursor:copy;
+
+}
+.money-check:hover{
+  cursor: pointer;
+}
+.prto{
+  display: flex;
+  margin-left: 60px;
+}
+.prto p{
+  margin: 0px 2px 0px 2px;
+}
